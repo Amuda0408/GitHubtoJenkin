@@ -16,9 +16,9 @@ public class openOnlinesite {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			System.out.println("Chrome browser is launched");
 			
-			//launched ikea site
-			driver.get("https://www.ikea.com/");		
-			System.out.println("User enters ikea.com in the url"); 
+			//launched costco site
+			driver.get("https://www.costco.com/");		
+			System.out.println("User enters costco.com in the url"); 
 			//close the browser
 					driver.quit();
 		}
